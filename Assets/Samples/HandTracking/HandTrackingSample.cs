@@ -28,6 +28,13 @@ public class HandTrackingSample : MonoBehaviour
     UniTask<bool> task;
     CancellationToken cancellationToken;
 
+    public float RedF=0.2f;
+    public float YellowF=0.3f;
+    public float BlueF=0.4f;
+    public float BlackF=0.5f;
+    public float WhiteF=0.6f;
+
+
 
 
     void Start()
@@ -88,6 +95,7 @@ public class HandTrackingSample : MonoBehaviour
         cameraView.rectTransform.GetWorldCorners(rtCorners);
 
         palmResults = palmDetect.GetResults(0.7f, 0.3f);
+        
 
 
         if (palmResults.Count <= 0) return;
@@ -122,10 +130,12 @@ public class HandTrackingSample : MonoBehaviour
         foreach (var palm in palms)
         {
             draw.Rect(MathTF.Lerp(min, max, palm.rect, true), 0.02f, min.z);
+        
 
             foreach (var kp in palm.keypoints)
             {
                 draw.Point(MathTF.Lerp(min, max, (Vector3)kp, true), 0.05f);
+                print((Vector3)kp);
             }
         }
         draw.Apply();
