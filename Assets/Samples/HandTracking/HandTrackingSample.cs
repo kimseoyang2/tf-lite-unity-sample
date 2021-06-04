@@ -34,6 +34,10 @@ public class HandTrackingSample : MonoBehaviour
     public float BlackF=0.5f;
     public float WhiteF=0.6f;
 
+    public float PalmX;
+
+    public GameObject cusorBox;
+
 
 
 
@@ -68,6 +72,7 @@ public class HandTrackingSample : MonoBehaviour
 
     void Update()
     {
+        
         if (runBackground)
         {
             if (task.Status.IsCompleted())
@@ -86,6 +91,8 @@ public class HandTrackingSample : MonoBehaviour
         if (landmarkResult == null || landmarkResult.score < 0.2f) return;
         DrawCropMatrix(landmarkDetect.CropMatrix);
         DrawJoints(landmarkResult.joints);
+
+
     }
 
     void Invoke()
@@ -135,7 +142,8 @@ public class HandTrackingSample : MonoBehaviour
             foreach (var kp in palm.keypoints)
             {
                 draw.Point(MathTF.Lerp(min, max, (Vector3)kp, true), 0.05f);
-                print((Vector3)kp);
+                //print((Vector3)kp);
+                cusorBox.transform.position = new Vector3(kp.x*10,kp.y*6,0f);                
             }
         }
         draw.Apply();
@@ -184,6 +192,8 @@ public class HandTrackingSample : MonoBehaviour
         for (int i = 0; i < HandLandmarkDetect.JOINT_COUNT; i++)
         {
             draw.Cube(worldJoints[i], 0.1f);
+            cusorBox.transform.position= worldJoints[5];
+
         }
 
         // Connection Lines
