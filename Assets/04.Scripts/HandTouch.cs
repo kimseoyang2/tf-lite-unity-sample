@@ -15,7 +15,7 @@ public class HandTouch : MonoBehaviour
     {
         if (other.tag == "RED")
         {
-            print("弧埃何利");
+            print("RED");
             
          
            
@@ -23,28 +23,28 @@ public class HandTouch : MonoBehaviour
 
         if (other.tag == "YELLOW")
         {
-            print("畴鄂何利");
+            print("YELLOW");
 
         }
 
 
         if (other.tag == "BLACK")
         {
-            print("八篮何利");
+            print("BLACK");
 
         }
 
 
         if (other.tag == "BLUE")
         {
-            print("颇尔何利");
+            print("BLUE");
 
         }
 
 
         if (other.tag == "WHITE")
         {
-            print("窍踞何利");
+            print("WHITE");
 
         }
 
