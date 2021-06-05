@@ -10,6 +10,7 @@ TagManager:
   - YELLOW
   - BLACK
   - WHITE
+  - select
   layers:
   - Default
   - TransparentFX

@@ -143,7 +143,7 @@ public class HandTrackingSample : MonoBehaviour
             {
                 draw.Point(MathTF.Lerp(min, max, (Vector3)kp, true), 0.05f);
                 //print((Vector3)kp);
-                cusorBox.transform.position = new Vector3(kp.x*10,kp.y*6,0f);                
+                //cusorBox.transform.position = new Vector3(kp.x*10,kp.y*6,0f);                
             }
         }
         draw.Apply();
@@ -192,7 +192,7 @@ public class HandTrackingSample : MonoBehaviour
         for (int i = 0; i < HandLandmarkDetect.JOINT_COUNT; i++)
         {
             draw.Cube(worldJoints[i], 0.1f);
-            cusorBox.transform.position= worldJoints[5];
+            cusorBox.transform.position= worldJoints[8];
 
         }
 
