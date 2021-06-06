@@ -51,8 +51,9 @@ public class TW_Regular : MonoBehaviour {
     public bool isTwo;
     public bool isThree;
     public bool isFour;
+    public bool isFive;
 
-   
+
 
     void Start () {
         ORIGINAL_TEXT = gameObject.GetComponent<Text>().text;
@@ -85,6 +86,13 @@ public class TW_Regular : MonoBehaviour {
             Invoke("StartTypewriter", 6f);
            
             isFour = false;
+        }
+
+        if (isFive)
+        {
+            Invoke("StartTypewriter", 8f);
+
+            isFive = false;
         }
     }
 

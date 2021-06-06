@@ -173,7 +173,8 @@ Material:
     - _GrainScale: {r: 50, g: 50, b: 50, a: 0}
     - _GrainValues: {r: 0, g: 1, b: 0, a: 0}
     - _LineGlitchOffset: {r: 0.03, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 3.9533494, g: 1.0015029, b: 0.6416429, a: 0.05098039}
+    - _MainColor: {r: 5.278032, g: 5.278032, b: 5.278032, a: 0.05098039}
     - _MaskCenter: {r: 0, g: 2.6, b: 0, a: 0}
     - _MaskSize: {r: 3, g: 3, b: 3, a: 0}
     - _RandomGlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

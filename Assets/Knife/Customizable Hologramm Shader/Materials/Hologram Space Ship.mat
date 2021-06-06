@@ -147,7 +147,7 @@ Material:
     - _RandomGlitchConstant: 0
     - _RandomGlitchFeature: 1
     - _RandomGlitchTiling: 0.82
-    - _RandomOffset: 0
+    - _RandomOffset: 55820.508
     - _SmoothnessTextureChannel: 0
     - _SoftIntersection1Affect: 1
     - _SoftIntersection1Distance: 0.2
@@ -174,7 +174,8 @@ Material:
     - _GrainScale: {r: 50, g: 50, b: 50, a: 0}
     - _GrainValues: {r: 0, g: 1, b: 0, a: 0}
     - _LineGlitchOffset: {r: 0.03, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 3.9533494, g: 1.0212103, b: 0.6416429, a: 0.05098039}
+    - _MainColor: {r: 5.228239, g: 5.228239, b: 5.228239, a: 0.05098039}
     - _MaskCenter: {r: 0, g: 2.6, b: 0, a: 0}
     - _MaskSize: {r: 3, g: 3, b: 3, a: 0}
     - _RandomGlitchOffset: {r: -0.3, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -81,7 +81,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 1
+    - _Alpha: 0.089
     - _AlphaMaskAffect: 0.5
     - _AlphaMaskFeature: 0
     - _ColorGlitchAffect: 0.3
@@ -216,7 +216,7 @@ Material:
     - _LineColor1: {r: 0.620945, g: 1.420074, b: 3.953349, a: 1}
     - _LineColor2: {r: 0.620945, g: 1.420074, b: 3.953349, a: 1}
     - _LineGlitchOffset: {r: 0.03, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 3.03461, g: 0.30087036, b: 3.037358, a: 0.05098039}
+    - _MainColor: {r: 0.620945, g: 1.420074, b: 3.953349, a: 0.05098039}
     - _MaskCenter: {r: 0, g: 0, b: 0, a: 0}
     - _MaskSize: {r: 0, g: 0, b: 0, a: 0}
     - _RandomGlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}

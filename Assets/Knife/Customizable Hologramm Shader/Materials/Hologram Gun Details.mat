@@ -87,11 +87,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Alpha: 0.237
+    - _Alpha: 1
     - _AlphaMaskAffect: 0.5
     - _AlphaMaskFeature: 1
     - _BumpScale: 1
-    - _ColorGlitchAffect: 0.074
+    - _ColorGlitchAffect: 0.121
     - _ColorGlitchFeature: 1
     - _CullMode: 2
     - _Cutoff: 0.5
@@ -111,12 +111,12 @@ Material:
     - _GlossyReflections: 1
     - _GrainAffect: 0.524
     - _GrainFeature: 1
-    - _Line1Alpha: -0.3
+    - _Line1Alpha: 0.15
     - _Line1Feature: 1
-    - _Line1Frequency: 50.79
-    - _Line1Hardness: 3.61
-    - _Line1InvertedThickness: 0.542
-    - _Line1Speed: -2.4
+    - _Line1Frequency: 50
+    - _Line1Hardness: 1.45
+    - _Line1InvertedThickness: 0
+    - _Line1Speed: -3.57
     - _Line2Alpha: 0.1
     - _Line2Feature: 1
     - _Line2Frequency: 1
@@ -148,7 +148,7 @@ Material:
     - _RandomGlitchConstant: 0
     - _RandomGlitchFeature: 1
     - _RandomGlitchTiling: 2.83
-    - _RandomOffset: 38265.367
+    - _RandomOffset: 0
     - _SmoothnessTextureChannel: 0
     - _SoftIntersection1Affect: 1
     - _SoftIntersection1Distance: 0
@@ -172,8 +172,7 @@ Material:
     - _GrainScale: {r: 50, g: 50, b: 50, a: 0}
     - _GrainValues: {r: -1, g: 1, b: 0, a: 0}
     - _LineGlitchOffset: {r: 0.15, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 0, g: 0, b: 0, a: 0.05098039}
+    - _MainColor: {r: 3.9533494, g: 0.98984647, b: 0.6416429, a: 0.05098039}
     - _MaskCenter: {r: 0, g: 0, b: 0, a: 0}
     - _MaskSize: {r: 0, g: 0, b: 0, a: 0}
     - _RandomGlitchOffset: {r: -0.5, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
